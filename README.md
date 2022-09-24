@@ -2,7 +2,7 @@
 
 OptPort is a package for portfolio optimization. It can be used for portfolio / signal optimization as well as related analytical component like constraint attribution, etc... 
 
-The package uses conic optimization from mosek solver to deliever commonly used portfolio optimizations like:
+The package uses conic/quadratic optimization from mosek/cvxpy to deliever commonly used portfolio optimizations like:
     
     - Mean Variance
     - Max Sharpe

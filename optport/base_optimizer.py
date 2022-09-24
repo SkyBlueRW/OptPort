@@ -1,5 +1,5 @@
 """
-基于 mosek 的底层solver
+Low level optimization solver object
 """
 from copy import deepcopy
 
@@ -12,7 +12,7 @@ from . import utils
 
 class MosekOptimizer:
     """
-    增添建模功能的底层优化器
+    Holder of optimization solver
 
     Model General Formulation
     -------------------------
